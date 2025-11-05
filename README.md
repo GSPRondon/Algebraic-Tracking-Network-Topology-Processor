@@ -23,8 +23,8 @@ Contains **measurement arrangement data**.
 | 3 | Measurement instrument type (0 – Potential Transformer (PT); 1 – Current Transformer (CT)) |
 | 4 | “From” bus section ID |
 | 5 | “To” bus section ID |
-| 6 | For CTs, indicates the type of connected equipment (0 – Transmission line; 1 – Power transformer; 2 – Load; 3 – General shunt equipment; 4 – Generating unit) |
-| 7 | “To” section ID after transmission line/transformer (if Column 6 = 0 or 1) |
+| 6 | For CTs, indicates the type of connected equipment (0 – Transmission line; 1 – Power transformer; 2 – Load; 3 – Other shunt equipment; 4 – Generating unit) |
+| 7 | “To” bus section ID after transmission line/transformer (if Column 6 = 0 or 1) |
 | 8 | Shunt element ID (if Column 6 = 2, 3, or 4) |
 
 ---
